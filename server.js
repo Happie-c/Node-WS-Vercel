@@ -33,6 +33,10 @@ app.get('/', (req, res) => {
     });
 });
 
+app.get('/home', (res, req) => {
+    res.json({ "data": " Home" })
+})
+
 app.listen(PORT, () => {
     console.log(`Server running at http://localhost:${PORT}`);
 });
