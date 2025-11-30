@@ -33,7 +33,7 @@ app.get('/', (req, res) => {
     });
 });
 
-app.get('/home', (res, req) => {
+app.get('/home', (req, res) => {
     res.json({ "data": " Home" })
 })
 
